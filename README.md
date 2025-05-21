@@ -1,67 +1,68 @@
-# Multimodal-Gesture-Control
-
-
-# =====================================================
 # 🎯 FaceUI++: Multimodal Gesture-Controlled UI System
-# =====================================================
-# Author        : Agrim Joshi
-# Description   : A real-time computer vision-based interface using 
-#                 facial and hand gestures to control mouse actions, 
-#                 volume, media playback, and tab navigation.
-# Technologies  : Python, OpenCV, MediaPipe, PyAutoGUI, osascript (macOS)
-#
-# -------------------
-# ✅ FEATURES
-# -------------------
-# 👁️  EYE BLINK DETECTION
-#     - Left Eye Blink  ➜ Left Click
-#     - Right Eye Blink ➜ Right Click
-#
-# 🤏 HAND GESTURE CONTROL (Right Hand)
-#     - Index + Thumb Pinch    ➜ Scroll Down
-#     - Middle + Thumb Pinch   ➜ Scroll Up
-#     - Ring + Thumb Pinch     ➜ Close Active Tab (Cmd + W)
-#
-# ✋ HAND GESTURE CONTROL (Left Hand)
-#     - Thumbs Up    ➜ Increase Volume
-#     - Thumbs Down  ➜ Decrease Volume
-#     - Index + Thumb Pinch ➜ Play/Pause Music
-#
-# 🖱️ CURSOR CONTROL
-#     - Right Hand Index Finger moves cursor across the screen
-#
-# -------------------
-# 🛠️ DEPENDENCIES
-# -------------------
-# Install using pip:
-#   pip install opencv-python mediapipe pyautogui numpy
-#
-# For macOS volume & music control:
-#   Uses: osascript (pre-installed on macOS)
-#
-# -------------------
-# 📦 HOW TO RUN
-# -------------------
-# python GestureControl.py
-#
-# -------------------
-# 💡 NOTES
-# -------------------
-# - Works best in good lighting conditions.
-# - macOS-specific; modify for Windows/Linux system commands.
-# - Adjust 'frame_skip', 'blink_threshold', and other params for tuning.
-#
-# -------------------
-# 📁 FILES
-# -------------------
-# - GestureControl.py      # Main script with gesture logic
-#
-# -------------------
-# 📸 DEMO
-# -------------------
-# [Insert demo GIF or YouTube link here]
-#
-# -------------------
-# 📄 LICENSE
-# -------------------
-# [Insert license if any, e.g., MIT]
+
+**Author**: *Agrim Joshi*  
+**Description**: A real-time computer vision-based interface using **facial and hand gestures** to control mouse actions, volume, media playback, and tab navigation.  
+**Technologies**: `Python`, `OpenCV`, `MediaPipe`, `PyAutoGUI`, `osascript (macOS)`
+
+---
+
+## 🚀 Features
+
+### 👁️ Eye Blink Detection
+- **Left Eye Blink** ➜ Left Click  
+- **Right Eye Blink** ➜ Right Click  
+
+### 🤏 Hand Gesture Control (Right Hand)
+- **Index + Thumb Pinch** ➜ Scroll Down  
+- **Middle + Thumb Pinch** ➜ Scroll Up  
+- **Ring + Thumb Pinch** ➜ Close Active Tab (`Cmd + W`)  
+
+### ✋ Hand Gesture Control (Left Hand)
+- **Thumbs Up** ➜ Increase Volume  
+- **Thumbs Down** ➜ Decrease Volume  
+- **Index + Thumb Pinch** ➜ Play/Pause Music  
+
+### 🖱️ Cursor Control
+- **Right Hand Index Finger** ➜ Move Cursor across the screen  
+
+---
+
+## 🛠️ Dependencies
+
+Install using pip:
+
+```bash
+pip install opencv-python mediapipe pyautogui numpy
+```
+
+For macOS volume & music control:  
+> Uses `osascript` (pre-installed on macOS)
+
+---
+
+## 📦 How to Run
+
+```bash
+python GestureControl.py
+```
+
+---
+
+## 💡 Notes
+
+- Works best in **good lighting conditions**.
+- Currently designed for **macOS** — system command modules (like `osascript`) must be replaced for **Windows/Linux**.
+- Tune parameters like `frame_skip`, `blink_threshold`, and `pinch_threshold` for best results.
+
+---
+
+## 📁 Files
+
+- `GestureControl.py` — Main script with gesture logic
+
+---
+
+## 📸 Demo
+
+> [Insert demo GIF or YouTube video link here]
+
