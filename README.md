@@ -64,5 +64,4 @@ python GestureControl.py
 
 ## 📸 Demo
 
-> [Insert demo GIF or YouTube video link here]
-
+> [Youtube Link](https://youtu.be/_HzGsyczCgc)
